@@ -17,6 +17,7 @@ Dive into a world of mesmerizing holographic wonders with the HolographicMateria
 While this material operates independently of any post-processing, it achieves an enhanced visual appeal when coupled with bloom effects. The utilization of bloom proves particularly effective in rendering a captivating glow effect, especially in areas where overexposure is prevalent.
 
 # HOW TO USE?
+You can see a video tutorial on how to use it here: https://www.youtube.com/watch?v=EPcd8iEcna8
 
 ### 1: Download the Material
 
@@ -41,7 +42,7 @@ scene.add(cube);
 
 ```
 
-### 4: Update the material inside render loop
+### 4: Update the material inside the render loop
 
 ```
 // ...
@@ -54,7 +55,7 @@ tick()
 // ...
 ```
 
-That's all that you need to use this material. Of course you can customize it as shown bellow.
+That's all that you need to use this material. Of course, you can customize it as shown below.
 
 # Properties
 
@@ -108,10 +109,6 @@ gui.add(holographicMaterial, 'hologramOpacity', 0.0, 1.0).name('Hologram Opacity
 gui.add(holographicMaterial, 'enableAdditive').name('Enable Additive');
 
 ```
-
-### Show, don't tell
-
-Here you can [see a video with](https://www.youtube.com/watch?v=njJc-O_imb4) it in action and some options
 
 ### License
 
